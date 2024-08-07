@@ -13,6 +13,8 @@ ENV APPLICATION_VERSION=${VERSION} \
 WORKDIR /app
 COPY requirements.txt ./
 
+RUN apt-get update && apt-get install -y git
+
 RUN set ex \
     && buildDeps=" \
         automake \
