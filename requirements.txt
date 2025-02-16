@@ -6,8 +6,9 @@ djangorestframework-camel-case==1.4.2
 django-storages==1.14.4
 django-stubs-ext==5.0.4
 drf-yasg[validation]==1.21.7
-safe-eth-py[django] @ git+https://github.com/rollna/safe-eth-py.git@v5.8.0
+safe-eth-py[django] @ git+https://github.com/RollNA/safe-eth-py.git@cfeaaedbc34d96dc9a2ef5f529fa8b1bfa65da35
 gunicorn==22.0.0
 Pillow==10.4.0
 psycopg2-binary==2.9.9
 requests==2.32.3
+web3==6.20.0
