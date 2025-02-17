@@ -13,7 +13,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name="chain",
             name="ens_registry_address",
-            field=gnosis.eth.django.models.EthereumAddressField(
+            field=gnosis.eth.django.models.EthereumAddressFastBinaryField(
                 blank=True, null=True
             ),  # type: ignore[no-untyped-call]
         ),
